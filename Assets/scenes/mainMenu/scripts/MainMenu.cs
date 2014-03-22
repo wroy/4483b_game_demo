@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour {
 
 		//displays our buttons
 		if(GUI.Button(buttonRect(1), "Play Game")) {
-			print("Clicked play game");
+			Application.LoadLevel(1);
 		}
 
 		if(GUI.Button(buttonRect(2), "Options")) {
@@ -27,7 +27,7 @@ public class MainMenu : MonoBehaviour {
 		}
 		
 		if(GUI.Button(buttonRect(5), "Exit")) {
-			print("Clicked exit");
+			Application.Quit();
 		}
 	}
 

@@ -29,6 +29,10 @@ public class MainMenu : MonoBehaviour {
 		if(GUI.Button(buttonRect(5), "Exit")) {
 			Application.Quit();
 		}
+
+		if(GUI.Button(buttonRect(6), "Facebook")) {
+			print("facebook");
+		}
 	}
 
 	Rect buttonRect(int buttonNumber){
